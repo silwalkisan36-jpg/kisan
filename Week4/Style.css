@@ -1,0 +1,57 @@
+header{
+     color: white;
+     background-color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+}
+body{
+  text-align: center;
+  background-color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1{
+    color: gold;
+    font-size: 2em;
+    margin: 0;
+}
+h2{
+  color: blue;
+}
+nav {
+margin-top: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: gold;
+}
+table{
+    margin: 20px auto;
+    width: 60%;
+    border-collapse: collapse;
+    background: rgba(255, 217, 0, 0.404);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th , td {
+    padding: 12px 15px;
+    border: 1px solid red;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}

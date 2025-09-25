@@ -1,0 +1,139 @@
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 180px;                /* adjust size */
+    height: auto;                /* keep aspect ratio */
+    display: block;              /* make it a block element */
+    margin: 10px auto 0;         /* center under nav */
+}
+/* Header Styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.branding{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: gold;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 20px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+#ah {
+    color: gold;
+}
+
+/* Headings */
+h2, h3 {
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffcc00;
+    color: #222;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+ul{
+    list-style: none;
+}
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.highlight {
+background-color: gold;
+padding: 10px;
+border-radius: 10px;
+color: #222;
+font-weight: bold;
+}
+.companyname{
+    font-weight: bold;
+    font-size: 1em;
+    color: blue;
+}
+h2 + p {
+color: red;
+}
+ul > li {
+font-variant: small-caps;
+}
+p::first-line{
+    font-variant: unset;
+    color: #333;
+}
+p::first-letter{
+    font-size: 5px;
+    font-weight: bold;
+    color: red;
+}
+h2::before{
+    color: wheat;
+}
